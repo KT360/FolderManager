@@ -1,0 +1,75 @@
+﻿<UserControl x:Class="ViewSample.Panels.MainPanel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ViewSample.Panels"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800"
+             xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+             xmlns:cmd ="http://www.galasoft.ch/mvvmlight">
+    
+    <Grid x:Name="_parentGrid">
+        <Border>
+            <DockPanel>
+
+                <!--Section to open folder-->
+                <Border BorderBrush="Black" BorderThickness="1" VerticalAlignment="Bottom">
+                    <Grid Width="100" Height="100" Background="Transparent">
+                        <i:Interaction.Triggers>
+                            <i:EventTrigger EventName="MouseEnter">
+                                <cmd:EventToCommand Command="{Binding CheckFolder}" PassEventArgsToCommand="True" />
+                            </i:EventTrigger>
+                            <i:EventTrigger EventName="MouseLeave">
+                                <cmd:EventToCommand Command="{Binding CheckFolder}" PassEventArgsToCommand="True" />
+                            </i:EventTrigger>
+                            <i:EventTrigger EventName="MouseLeftButtonDown">
+                                <cmd:EventToCommand Command="{Binding SelectFolder}" PassEventArgsToCommand="True" />
+                            </i:EventTrigger>
+                        </i:Interaction.Triggers>
+                    </Grid>
+                </Border>
+
+
+
+                <!--Section for the two labels at the top of the grid-->
+                <Grid DockPanel.Dock="Top">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Label HorizontalAlignment="Left">Folders</Label>
+                    <Label HorizontalAlignment="Left" Grid.Column="1">Folder Data</Label>
+                </Grid>
+
+
+
+                <!--Main grid-->
+                <Grid x:Name="_mainGrid">
+
+                    <i:Interaction.Triggers>
+                        <i:EventTrigger EventName="Loaded">
+                            <cmd:EventToCommand Command="{Binding AdornPanels}" PassEventArgsToCommand="True"/>
+                        </i:EventTrigger>
+                    </i:Interaction.Triggers>
+
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+
+                    <!--
+                    <local:FilePanel></local:FilePanel>
+                    <local:FolderPanel Grid.Column="1"></local:FolderPanel>
+
+                    <Border BorderBrush="Black" BorderThickness="1"></Border>
+                    <Border BorderBrush="Black" BorderThickness="1" Grid.Column="1"></Border>
+                    -->
+                </Grid>
+
+            </DockPanel>
+        </Border>
+    </Grid>
+</UserControl>

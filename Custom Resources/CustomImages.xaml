@@ -1,0 +1,55 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<!--Main folder image-->
+        <Geometry x:Key="files_folder_svgrepo_comGeometry1">F1 M503.322,503.322z M0,0z M338.441,0L43.39,0C24.298,0,8.678,15.62,8.678,34.712L8.678,468.61C8.678,487.702,24.298,503.322,43.39,503.322L338.441,503.322C357.533,503.322,373.153,487.702,373.153,468.61L373.153,34.712C373.153,15.62,357.532,0,338.441,0</Geometry>
+        <Geometry x:Key="files_folder_svgrepo_comGeometry2">F1 M503.322,503.322z M0,0z M373.153,164.881L373.153,164.881 442.576,164.881 442.576,95.458 373.153,95.458z</Geometry>
+        <Geometry x:Key="files_folder_svgrepo_comGeometry3">F1 M503.322,503.322z M0,0z M373.153,34.712L373.153,95.458 425.221,95.458 425.221,34.712C425.22,15.62,409.6,0,390.508,0L338.44,0C357.532,0,373.153,15.62,373.153,34.712</Geometry>
+        <Geometry x:Key="files_folder_svgrepo_comGeometry4">F1 M503.322,503.322z M0,0z M373.153,164.881L373.153,468.61C373.153,487.702,357.533,503.322,338.441,503.322L390.509,503.322C409.601,503.322,425.221,487.702,425.221,468.61L425.221,164.881 373.153,164.881z</Geometry>
+        <Geometry x:Key="files_folder_svgrepo_comGeometry5">F1 M503.322,503.322z M0,0z M425.22,34.712L425.22,52.068 477.288,52.068 477.288,34.712C477.288,15.62,461.668,0,442.576,0L390.508,0C409.6,0,425.22,15.62,425.22,34.712</Geometry>
+        <Geometry x:Key="files_folder_svgrepo_comGeometry6">F1 M503.322,503.322z M0,0z M442.576,121.492L442.576,164.882 425.22,164.882 425.22,468.61C425.22,487.702,409.6,503.322,390.508,503.322L442.576,503.322C461.668,503.322,477.288,487.702,477.288,468.61L477.288,121.492 442.576,121.492z</Geometry>
+        <Geometry x:Key="files_folder_svgrepo_comGeometry7">F1 M503.322,503.322z M0,0z M425.22,52.068L425.22,52.068 425.22,95.458 442.576,95.458 442.576,121.492 494.644,121.492 494.644,52.068z</Geometry>
+        <Geometry x:Key="files_folder_svgrepo_comGeometry8">F1 M503.322,503.322z M0,0z M310.671,406.129L269.017,364.475 227.363,406.129C223.892,409.6,216.949,406.997,216.949,401.79L216.949,0 321.085,0 321.085,401.79C321.085,406.997,314.142,410.468,310.671,406.129</Geometry>
+        <Geometry x:Key="files_folder_svgrepo_comGeometry9">F1 M503.322,503.322z M0,0z M130.169,69.424L52.068,69.424C46.861,69.424 43.39,65.953 43.39,60.746 43.39,55.539 46.861,52.068 52.068,52.068L130.17,52.068C135.377,52.068 138.848,55.539 138.848,60.746 138.848,65.953 135.376,69.424 130.169,69.424</Geometry>
+        <Geometry x:Key="files_folder_svgrepo_comGeometry10">F1 M503.322,503.322z M0,0z M130.169,104.136L52.068,104.136C46.861,104.136 43.39,100.665 43.39,95.458 43.39,90.251 46.861,86.78 52.068,86.78L130.17,86.78C135.377,86.78 138.848,90.251 138.848,95.458 138.847,100.664 135.376,104.136 130.169,104.136</Geometry>
+        <Geometry x:Key="files_folder_svgrepo_comGeometry11">F1 M503.322,503.322z M0,0z M286.373,130.169C291.58,130.169,295.051,126.698,295.051,121.491L295.051,0 277.695,0 277.695,121.492C277.695,126.698,281.166,130.169,286.373,130.169</Geometry>
+        <Geometry x:Key="files_folder_svgrepo_comGeometry12">F1 M503.322,503.322z M0,0z M251.661,95.458C256.868,95.458,260.339,91.987,260.339,86.78L260.339,0 242.983,0 242.983,86.78C242.983,91.986,246.454,95.458,251.661,95.458</Geometry>
+        <DrawingGroup x:Key="files_folder_svgrepo_comDrawingGroup" ClipGeometry="M0,0 V503.322 H503.322 V0 H0 Z">
+            <GeometryDrawing Brush="#FFFBC176" Geometry="{StaticResource files_folder_svgrepo_comGeometry1}" />
+            <GeometryDrawing Brush="#FF57B1E3" Geometry="{StaticResource files_folder_svgrepo_comGeometry2}" />
+            <DrawingGroup Opacity="1">
+                <GeometryDrawing Brush="#FFC39A6E" Geometry="{StaticResource files_folder_svgrepo_comGeometry3}" />
+                <GeometryDrawing Brush="#FFC39A6E" Geometry="{StaticResource files_folder_svgrepo_comGeometry4}" />
+            </DrawingGroup>
+            <DrawingGroup Opacity="1">
+                <GeometryDrawing Brush="#FFFBC176" Geometry="{StaticResource files_folder_svgrepo_comGeometry5}" />
+                <GeometryDrawing Brush="#FFFBC176" Geometry="{StaticResource files_folder_svgrepo_comGeometry6}" />
+            </DrawingGroup>
+            <GeometryDrawing Brush="#FF26B999" Geometry="{StaticResource files_folder_svgrepo_comGeometry7}" />
+            <GeometryDrawing Brush="#FFF38774" Geometry="{StaticResource files_folder_svgrepo_comGeometry8}" />
+            <DrawingGroup Opacity="1">
+                <GeometryDrawing Brush="#FFFFFFFF" Geometry="{StaticResource files_folder_svgrepo_comGeometry9}" />
+                <GeometryDrawing Brush="#FFFFFFFF" Geometry="{StaticResource files_folder_svgrepo_comGeometry10}" />
+            </DrawingGroup>
+            <DrawingGroup Opacity="1">
+                <GeometryDrawing Brush="#FFC85B4C" Geometry="{StaticResource files_folder_svgrepo_comGeometry11}" />
+                <GeometryDrawing Brush="#FFC85B4C" Geometry="{StaticResource files_folder_svgrepo_comGeometry12}" />
+            </DrawingGroup>
+        </DrawingGroup>
+        <DrawingImage x:Key="main_folder_image" Drawing="{StaticResource files_folder_svgrepo_comDrawingGroup}" />
+    
+<!--Normal folder image-->
+        <Geometry x:Key="files_folder_svgrepo_com__1_Geometry1">F1 M512,512z M0,0z M0,167.724L0,432.552C0,447.559,11.476,459.035,26.483,459.035L485.517,459.035C500.524,459.035,512,447.559,512,432.552L512,167.724C512,152.717,500.524,141.241,485.517,141.241L26.483,141.241C11.476,141.241,0,153.6,0,167.724</Geometry>
+        <Geometry x:Key="files_folder_svgrepo_com__1_Geometry2">F1 M512,512z M0,0z M467.862,141.241C467.862,121.82,451.972,105.931,432.552,105.931L291.31,105.931 247.172,52.965 52.966,52.965C37.959,52.965,26.483,65.324,26.483,79.448L26.483,141.241 467.862,141.241z</Geometry>
+        <Geometry x:Key="files_folder_svgrepo_com__1_Geometry3">F1 M512,512z M0,0z M158.897,203.034L52.966,203.034C47.669,203.034 44.138,199.503 44.138,194.206 44.138,188.909 47.669,185.378 52.966,185.378L158.897,185.378C164.194,185.378 167.725,188.909 167.725,194.206 167.725,199.503 164.193,203.034 158.897,203.034</Geometry>
+        <Geometry x:Key="files_folder_svgrepo_com__1_Geometry4">F1 M512,512z M0,0z M158.897,238.345L52.966,238.345C47.669,238.345 44.138,234.814 44.138,229.517 44.138,224.22 47.669,220.689 52.966,220.689L158.897,220.689C164.194,220.689 167.725,224.22 167.725,229.517 167.725,234.814 164.193,238.345 158.897,238.345</Geometry>
+        <DrawingGroup x:Key="files_folder_svgrepo_com__1_DrawingGroup" ClipGeometry="M0,0 V512 H512 V0 H0 Z">
+            <GeometryDrawing Brush="#FFFBC176" Geometry="{StaticResource files_folder_svgrepo_com__1_Geometry1}" />
+            <GeometryDrawing Brush="#FFC39A6E" Geometry="{StaticResource files_folder_svgrepo_com__1_Geometry2}" />
+            <DrawingGroup Opacity="1">
+                <GeometryDrawing Brush="#FFFFFFFF" Geometry="{StaticResource files_folder_svgrepo_com__1_Geometry3}" />
+                <GeometryDrawing Brush="#FFFFFFFF" Geometry="{StaticResource files_folder_svgrepo_com__1_Geometry4}" />
+            </DrawingGroup>
+        </DrawingGroup>
+        <DrawingImage x:Key="folder_image" Drawing="{StaticResource files_folder_svgrepo_com__1_DrawingGroup}" />
+
+</ResourceDictionary>
